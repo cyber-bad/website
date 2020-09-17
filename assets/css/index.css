@@ -594,14 +594,14 @@ banner
     background-color: rgba(35,45,57,0.8);
     top: 0;
     left: 0;
-    bottom: 7px;
+    bottom: 0px;
     width: 100%;
 }
 
 .main-banner .caption {
   text-align: center;
   position: absolute;
-  width: 80%;
+  width: 100%;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
@@ -619,7 +619,9 @@ banner
 .main-banner .caption h2 {
   margin-top: 30px;
   margin-bottom: 25px;
-  font-size: 84px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 80px;
   text-transform: uppercase;
   font-weight: 800;
   color: #fff;
